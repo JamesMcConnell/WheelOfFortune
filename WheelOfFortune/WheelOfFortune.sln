@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelOfFortune.Web", "WheelOfFortune.Web\WheelOfFortune.Web.csproj", "{0CF13D03-997B-4CB3-9993-4A135E288024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelOfFortune.Web.Tests", "WheelOfFortune.Web.Tests\WheelOfFortune.Web.Tests.csproj", "{A555EE4D-0FE4-4E8E-8E31-FC84593E8166}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelOfFortune.Framework", "WheelOfFortune.Framework\WheelOfFortune.Framework.csproj", "{3E40FA7C-26CC-4B1D-B1C0-8FA3B333D70C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelOfFortune.Assemblies", "WheelOfFortune.Assemblies\WheelOfFortune.Assemblies.csproj", "{57699A11-8FB2-4914-A0E5-58370267A57B}"
@@ -19,10 +17,6 @@ Global
 		{0CF13D03-997B-4CB3-9993-4A135E288024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF13D03-997B-4CB3-9993-4A135E288024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF13D03-997B-4CB3-9993-4A135E288024}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A555EE4D-0FE4-4E8E-8E31-FC84593E8166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A555EE4D-0FE4-4E8E-8E31-FC84593E8166}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A555EE4D-0FE4-4E8E-8E31-FC84593E8166}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A555EE4D-0FE4-4E8E-8E31-FC84593E8166}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E40FA7C-26CC-4B1D-B1C0-8FA3B333D70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E40FA7C-26CC-4B1D-B1C0-8FA3B333D70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E40FA7C-26CC-4B1D-B1C0-8FA3B333D70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
