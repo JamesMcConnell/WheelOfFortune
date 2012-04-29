@@ -33,25 +33,27 @@ namespace WheelOfFortune.Framework.Domain.Implementation
 
         public IList<Player> AddPlayer(string name)
         {
-            if (_currentPlayers.Count == 3)
-            {
-                return null;
-            }
+            return null;
 
-            if (_currentPlayers.Count == 0)
-            {
-                _gameState = GameState.WaitingForPlayers;
-            }
+            //if (_currentPlayers.Count == 3)
+            //{
+            //    return null;
+            //}
 
-            _currentPlayers.Add(new Player
-            {
-                Id = -1,
-                Name = name,
-                LettersGuessed = new List<string>(),
-                Winnings = 0.0
-            });
+            //if (_currentPlayers.Count == 0)
+            //{
+            //    _gameState = GameState.WaitingForPlayers;
+            //}
 
-            return _currentPlayers;
+            //_currentPlayers.Add(new Player
+            //{
+            //    Id = -1,
+            //    Name = name,
+            //    LettersGuessed = new List<string>(),
+            //    Winnings = 0.0
+            //});
+
+            //return _currentPlayers;
         }
         #endregion
     }

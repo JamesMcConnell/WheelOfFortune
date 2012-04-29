@@ -322,3 +322,31 @@ div#title {
 .tri-state {
     width: 6em;
 }
+
+.player-wrapper {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.player-item  {
+    float: left;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+    .player-name
+    {
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .player-winnings
+    {
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+    }

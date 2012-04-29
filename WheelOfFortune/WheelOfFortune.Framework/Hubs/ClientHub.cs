@@ -31,5 +31,18 @@ namespace WheelOfFortune.Framework.Hubs
             var currentPlayers = _gameClient.GetCurrentPlayers();
             Clients.currentPlayersResponse(currentPlayers);
         }
+
+        public void AddPlayerRequest(Player player)
+        {
+            var currentPlayers = _gameClient.AddPlayer(player.Name);
+            if (currentPlayers == null)
+            {
+                Caller.reportError("Game full.  Please wait for next game.");
+            }
+            else
+            {
+                Clients.addPlayerResponse(currentPlayers);
+            }
+        }
     }
 }

@@ -45,9 +45,9 @@
         // Properties
         this.currentGameState = ko.observable('No State Acquired');
         this.players = ko.observableArray([
-			new playerViewModel({ id: -1, name: '', lettersGuessed: new Array(), winnings: 0 }),
-			new playerViewModel({ id: -1, name: '', lettersGuessed: new Array(), winnings: 0 }),
-			new playerViewModel({ id: -1, name: '', lettersGuessed: new Array(), winnings: 0 })
+			new playerViewModel({ id: -1, name: 'Player 1', lettersGuessed: new Array(), winnings: 0 }),
+			new playerViewModel({ id: -1, name: 'Player 2', lettersGuessed: new Array(), winnings: 0 }),
+			new playerViewModel({ id: -1, name: 'Player 3', lettersGuessed: new Array(), winnings: 0 })
 		]);
     };
 
