@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace WheelOfFortune.Framework.Domain
 {
     public interface IGameClient
     {
-        string GetGameState { get; set; }
+        GameState GetGameState();
+        void StartGame();
+        IList<Player> AddPlayer(string name);
+        IList<Player> GetCurrentPlayers();
     }
 }

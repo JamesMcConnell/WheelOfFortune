@@ -6,3 +6,16 @@
 <p>
     To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
 </p>
+Current Game State: <input type="text" disabled="disabled" id="txtGameState" data-bind="value: currentGameState" /> &nbsp;<button data-bind="click: CheckGameState">Check Game State</button>
+
+<script type="text/html" id="player-template">
+    <li>
+        <strong data-bind="text: name"></strong> - <span data-bind="text: winnings"></span>
+    </li>
+</script>
+<div>
+    <ul data-bind="template: { name: 'player-template', foreach: players }"></ul>
+</div>
+
+<script type="text/javascript" language="javascript" src="@Url.Content("~/signalr/hubs")"></script>
+<script type="text/javascript" language="javascript" src="@Url.Content("~/Scripts/game.js")"></script>
